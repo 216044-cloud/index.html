@@ -11,11 +11,47 @@ p {
   color: purple;
   text-align: center;
 }
+     /* Memberikan highlight sedikit agar perubahan terlihat jelas */
+            span {
+                font-weight: bold;
+            }
   </style>
 
     <body>
+       <h4>Ini berita pertama saya, jurnalis <span id="wartawan">Safira Shafa</span></h4>
+        <br>
+        <h3>Informasi kayyes melahirkan anak</h3> <br>
+        <p>
+           <span id="pria">Eldin Rahadian Putra</span> dan 
+            <span id="wanita">kharisma cahya putri</span> melahirkan anak pertama, 
+            <span id="waktu">jumat, 14 Februari 2025</span>. 
+            dan tentunya menarik perhatian banyak penggemar. Kebahagiaan pasangan muda ini tak terbendung. 
+            <span id="pria2"> Elzhard Rahadian Askara</span> anak dari celiboy dan kayyes.
+        </p>
+        <p>  
+            <span id="tempat">Rumah Sakit</span>
+        </p>
+      
+ <script>
+            // Fungsi ini akan berjalan otomatis saat halaman selesai dimuat
+            window.onload = function() {
+                // 1. Mengambil input dari user melalui pop-up prompt
+                let namaPria = prompt("Ketik nama pria:", "Eldin Rahadian Putra");
+                let namaWanita = prompt("Ketik nama wanita:", "kharisma cahya putri");
+                let namaTempat = prompt("Ketik nama tempat:", "Rumah Sakit");
+                let namaPria2 = prompt("Ketik nama pria:",  "Elzhard Rahadian Askara");
+
+              if (namaPria) {
+                    document.getElementById("pria1").innerText = namaPria; Eldin Rahadian Putra
+                    document.getElementById("pria2").innerText = namaPria; Elzhard Rahadian Askara
+                }
+                if (namaWanita) document.getElementById("wanita").innerText = namaWanita; kharisma cahya putri
+                if (namaTempat) document.getElementById("tempat").innerText = namaTempat; Rumah Sakit 
+                if (tglAcara) document.getElementById("waktu").innerText = tglMelahirkan; jumat, 14 Februari 2025
+            };
+        </script>
     <h4> Kayess Melahirkan Anak Pertama di Usia 22 Tahun, Lahir di Hari Valentine</h4>
-  <P>Kharisma Cahaya Putri atau yang lebih dikenal dengan Kayess baru saja melahirkan anak pertamanya bersama Eldin Rahadian Putra yang akrab disapa Celiboy. Kabar bahagia ini mulai viral di Instagram mereka sejak 14 Februari 2025 kemarin, dan tentunya menarik perhatian banyak penggemar. Kebahagiaan pasangan muda ini tak terbendung.</P>
+  <P>Kharisma Cahaya Putri atau yang lebih dikenal dengan Kayess baru saja melahirkan anak pertamanya bersama Eldin Rahadian Putra yang akrab disapa Celiboy. Kabar bahagia ini mulai viral di Instagram mereka sejak jumat 14 Februari 2025 kemarin, dan tentunya menarik perhatian banyak penggemar. Kebahagiaan pasangan muda ini tak terbendung.</P>
   <P>Di usia 22 tahun, Kayess dan Celiboy kini telah menjadi orang tua, dan tak heran jika netizen menyebut mereka sebagai bocil yang sudah punya bocil. Proses persalinan yang berlangsung cepat ini juga menjadi sorotan. Momen kelahiran ini menjadi semakin spesial karena anak mereka lahir tepat di hari kasih sayang, 14 Februari.</P>
   <P>Foto-foto yang diunggah di akun Instagram Kayess memperlihatkan momen haru dan bahagia saat mereka menyambut kelahiran putra pertama mereka yang diberi nama Elzhard Rahadian Askara.</P>
   <P>Dalam salah satu foto, terlihat Kayess duduk di ranjang rumah sakit dengan senyum bahagia, sementara Eldin mencium keningnya dengan penuh kasih sayang. Tangan mereka bertautan di atas perut Kayess, menandakan kebersamaan dan cinta yang menggebu saat persalinan. Berikut Liputan6.com merangkum potret Kayes melahirkan anak pertama melansir dari Instagram @ewkharis, Sabtu (15/2/2025).</P>
